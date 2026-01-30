@@ -2,7 +2,7 @@ import telebot
 from bot_logic import gen_pass, gen_emodji, flip_coin, get_class  
 
 # Замени 'TOKEN' на токен твоего бота
-bot = telebot.TeleBot("8035256469:AAGCU8rpeIRPxCD849VQUUz4-EKm-LMQo4A")
+bot = telebot.TeleBot("YOUR_TOKEN")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
